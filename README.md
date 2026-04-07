@@ -2,6 +2,7 @@
 A simple python library that calculates accurate options greeks from market derived implied volatility by reversing the black-scholes-merton equation.
 
 INSTALLATION: ```pip install greeksforgeeks```<br>
+Link to PyPi: https://pypi.org/project/greeksforgeeks/
 
 Calculates the following options metrics:
 - Delta
