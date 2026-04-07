@@ -15,19 +15,33 @@ Calculates the following options metrics:
 
 
 
-```pythonfrom greeksforgeeks import greeks```
+```python
+from greeksforgeeks import greeks
+```
 
-```pythondelta = greeks.get_options_delta(S, K, t, r, q, P, is_call)```
+```python
+delta = greeks.get_options_delta(S, K, t, r, q, P, is_call)
+```
 
-```pythontheta = greeks.get_options_theta(S, K, t, r, q, d, P, is_call)```
+```python
+theta = greeks.get_options_theta(S, K, t, r, q, d, P, is_call)
+```
 
-```pythongamma = greeks.get_options_gamma(same as get_options_delta)```
+```python
+gamma = greeks.get_options_gamma(same as get_options_delta)
+```
 
-```pythonvega = greeks.get_options_vega(same as get_options_delta)```
+```python
+vega = greeks.get_options_vega(same as get_options_delta)
+```
 
-```pythonrho = greeks.get_options_rho(same as get_options_delta)```
+```python
+rho = greeks.get_options_rho(same as get_options_delta)
+```
 
-```pythonimplied_volatility = greeks.get_implied_volatility(same as get_options_delta)```
+```python
+implied_volatility = greeks.get_implied_volatility(same as get_options_delta)
+```
 
 Method Parameter Definitions:
 
